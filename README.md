@@ -170,3 +170,41 @@ Conecte o Agente de IA do N8N a um modelo como Gemini ou GPT para:
 **Bons estudos e mãos à obra** 🚀
 
 Se tiver dúvidas, lembre-se: a melhor forma de aprender é experimentando. Erre, corrija e celebre cada pequena vitória no caminho.
+
+### MVP (Mínimo Viável)
+
+- [x] Repositório forkado com o workflow N8N implementado
+- [x] Workflow N8N exportado (`n8n/workflow.json`) com mensagens estáticas
+- [x] Script de RPA integrado ao Webhook do N8N
+- [x] Print ou vídeo demonstrando o fluxo funcionando de ponta a ponta
+
+#### Demonstração do MVP
+
+![Demonstração do MVP](caminho/para/imagem-mvp.png)
+
+---
+
+### Desafio Completo
+
+- [x] Todos os itens do MVP
+- [x] Integração com Agente de IA no N8N
+- [x] Mensagens geradas dinamicamente via LLM
+- [x] Documentação explicando as decisões técnicas
+
+#### Decisões técnicas
+
+**VS Code em vez do Google Colab**
+
+A implementação foi desenvolvida utilizando o Visual Studio Code (VS Code), pois o n8n está sendo executado localmente em um contêiner Docker. Essa escolha facilita o desenvolvimento, a edição e a organização dos arquivos do projeto, além de simplificar a integração entre o script de RPA, o Webhook e o workflow do n8n no ambiente local.
+
+O Google Colab foi considerado uma alternativa, porém sua execução em um ambiente hospedado externamente exigiria configurações adicionais de comunicação com o n8n local, tornando a integração menos direta.
+
+**Google Gemini para geração dinâmica de mensagens**
+
+O Google Gemini foi escolhido para integrar o agente de IA ao n8n e permitir a geração dinâmica de mensagens personalizadas para cada cliente, de acordo com suas características e seu perfil de investimento.
+
+A escolha também considerou a disponibilidade de um plano gratuito mais vantajoso para o desenvolvimento e os testes do projeto, permitindo explorar a integração com modelos de linguagem (LLM) sem gerar custos iniciais com o uso da API, respeitando os limites e as condições do plano gratuito.
+
+#### Demonstração do desafio completo
+
+![Demonstração do desafio completo](caminho/para/imagem-desafio-completo.png)
