@@ -180,7 +180,7 @@ Se tiver dúvidas, lembre-se: a melhor forma de aprender é experimentando. Erre
 
 #### Demonstração do MVP
 
-![Demonstração do MVP](caminho/para/imagem-mvp.png)
+![Demonstração do MVP](./Workflow%20-%20RPA.jpg)
 
 ---
 
@@ -207,4 +207,4 @@ A escolha também considerou a disponibilidade de um plano gratuito mais vantajo
 
 #### Demonstração do desafio completo
 
-![Demonstração do desafio completo](caminho/para/imagem-desafio-completo.png)
+![Demonstração do desafio completo](./Workflow%20-%20RPA%20Completo.jpg)
